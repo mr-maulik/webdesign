@@ -1,0 +1,104 @@
+h1{
+    background: linear-gradient(rgb(7, 73, 104) , lightblue);
+    text-align: center;
+    margin: 0px 100px 0px 100px;
+    font-style: italic;
+}
+
+.main-div{
+    background-color: aqua;
+    
+}
+button{
+    font-size: 30px;
+}
+a{
+    text-decoration: none;
+}  
+
+.right-button i{
+    font-size: 30px;
+    padding-left: 1265px;
+}
+
+.left-button i{
+    font-size: 30px;
+}
+
+
+
+thead tr td{
+    text-align: center;
+}
+
+.img-op img:hover{
+    opacity:0.9;
+}
+
+.back{
+    height: 200px;
+    width: 200px;
+    background-color: white;
+    margin-left: 10px;
+}
+
+.back:hover{
+    background-color: blueviolet;
+}
+
+.main-div p{
+    margin-left: 20px;
+    
+}
+
+.q7{
+    height: 200px;
+    width: 300px;
+    background-image: url(../css/imge/repeat.jpg);
+    
+}
+
+.q7:hover{
+    background-repeat: no-repeat;
+}
+
+.position{
+    height: 300px;
+    width: 600px;
+    border: 1px solid black;
+    background-color: lightgreen;
+    background: url(../css/imge/repeat.jpg);
+    background-repeat: no-repeat;
+    background-position:right;
+}
+
+.scroll{
+    height: 600px;
+    width: 700px;
+    background: url(./imge/Landscape-Color.jpg);
+    background-attachment: fixed;
+}
+
+ .center {
+    height: 300px;
+    width: 400px;
+    /* background-color: black; */
+      margin-left: auto;
+      margin-right: auto;
+      line-height: 300px;
+    }
+
+
+    .specification ul{
+        display: flex;
+        list-style: none;
+        border: 1px solid black;
+        padding-left:500px ;
+    }
+
+
+    .specification ul li{
+        padding-left: 20px;
+        color: brown;
+        font-size: x-large;
+    }
