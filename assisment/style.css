@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(123, 204, 204);
+}
+
+header p{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+}
+hr{
+    width: 1300px;
+    margin: auto;
+}
+section{
+    margin-top: 20px;
+}
+
+section .info{
+    height: 100px;
+    background: white;
+    width: 1300px ;
+    margin: auto;
+    position: relative;
+}
+
+section .info{
+    display: flex;
+}
+
+section .info .add-info{
+    margin-top: 10px;
+    margin-left: 60px;
+}
+
+section .info .add-info p{
+    padding-bottom: 8px;
+}
+
+a{
+    text-decoration: none;
+}
+
+section .info .num-info p a{
+    padding-left: 2px;
+}
+
+section .info .num-info .item-4 a,.fa-phone{
+    color: red;
+}
+
+section .info .num-info .item-5 a,.fa-envelope{
+    color: rgb(109, 216, 216);
+}
+section .info .num-info{
+    margin-top: 36px;
+    margin-left: 200px;
+    
+}
+section .info .logo{
+    margin-top: 30px;
+    margin-left: 300px;
+    color: red;
+}
+
+section .info .logo p{
+    font-size: 30px;
+}
+
+
+section .info .num-info p{
+    margin-left: 150px;
+    padding-bottom: 8px;
+}
+
+ section .ditails{
+    height: 450px;
+    width: 1300px;
+    background-color: white;
+    margin: auto;
+    display: flex;
+ }
+
+ 
+
+ .map iframe{
+    height: 400px;
+    padding-left:400px;
+    width: 900px;
+    padding-top: 50px;
+ }
+
+
+ .ditails .form form{
+    margin-top: 80px;
+    margin-left: 40px;
+ }
+
+ .ditails .form form button{
+    background-color: red;
+    color: aliceblue;
+    padding: 5px;
+ }
+
+ section .ditails .map .icon{
+    margin-left: 400px;
+    font-size: 30px;
+    margin-top: 3px;
+ }
