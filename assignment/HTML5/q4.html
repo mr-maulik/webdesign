@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment</title>
+    <link rel="stylesheet" href="style5.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    
+    <nav class="navbar">
+       
+        <div>Home</div>
+        <div>About</div>
+        <div>Contect us</div>
+        <div>Catagory</div>
+        <div>Help line</div>
+
+    </nav>
+
+    <section>
+        <h1>q4.Canvas and SVG tags</h1>
+        
+        <h3>
+            <li>canvas</li>
+        </h3>
+
+        <p></p>
+        <p>Canvas is a drawing surface provided by HTML5 </p>
+        <p> It provides a pixel-based rendering approach, where you can draw shapes, images, and animations directly onto the canvas element.</p>
+        
+        <canvas height="150px" width="200px" style=" border: 1px solid black;" id="can">
+            This browser isn't support canvas!
+        </canvas>
+        
+        <div class="example">
+            <header>EXAMPLE</header>
+            &lt;canvas height="150px" width="200px" style=" border: 1px solid black;" id="can"&gt; <br>
+            &lt;/canvas&gt;<br> <br> <br>
+            &lt;script&gt;<br>
+                  &nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;var can = document.getElementById('can');<br>
+                  &nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;var ct = can.getContext("2d");<br>
+                  &nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;ct.beginPath();<br>
+                  &nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;ct.rect(10,10,70, 70);<br>
+                  &nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;ct.stroke();<br>
+                  &nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;ct.fillStyle = "lightblue";<br>
+                  &nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;ct.fill();<br>
+            &lt;/script&gt;<br>
+        </div>
+
+        <h3>
+            <li>SVG</li>
+        </h3>
+
+        <p>SVG stand for scaleble vector graphics</p>
+        <p>SVG use pxl</p>
+        <p>SVG uses mathematical descriptions of shapes and lines</p>
+
+        <svg width="200" height="100">
+            <rect x="10" y="10" width="180" height="80" fill="blue" />
+        </svg>
+        <div class="example">
+            <header>EXAMPLE</header>
+            &lt;svg width="200" height="100"&gt;
+                &lt;rect x="10" y="10" width="180" height="80" fill="blue" /&gt;
+            &lt;/svg&gt;
+        </div>
+    </section>
+
+    <footer>
+        <div><a href="D:\tops_porgram\webdesign\assigment\HTML_5\q3.html"><i class="fa-solid fa-circle-arrow-left"></i></a></div>
+        <div><a href="D:\tops_porgram\webdesign\assigment\HTML_5\q1.html"><i class="fa-solid fa-circle-arrow-left fa-flip-both"></i></a></div>
+    </footer>
+
+
+    <script>
+        var can = document.getElementById('can');
+        var ct = can.getContext("2d");
+        ct.beginPath();
+        ct.rect(10,10,70, 70);
+        ct.stroke();
+        ct.fillStyle = "lightblue";
+        ct.fill();
+    </script>
+
+</body>
+</html>

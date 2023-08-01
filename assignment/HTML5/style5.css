@@ -1,0 +1,81 @@
+.navbar{
+    height: 80px;
+    display:flex;
+    background-color: black;
+}
+
+.navbar div{
+    color: aqua;
+    padding: 30px;
+    margin: auto;
+    font-size: 20px;
+}
+
+footer{
+    height: 50px;
+    margin-top: 10px;
+    background-color: black;
+}
+
+
+footer div a{
+    color: aqua;
+    font-size: 30px;
+   
+}
+
+footer{
+    display: flex;
+    justify-content:space-between;
+    /* padding-left: 1100px; */
+}
+/* q2 css start */
+.embed{
+    height: 600px;
+    background-color: white;
+    color: rgb(17, 17, 17);
+}
+
+audio{
+    /* background: black; */
+    height: 100px;
+    color: aqua;
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+/* q2. css end */
+
+/* q3 css start */
+
+section h3{
+    margin-top: 40px;
+    text-decoration: underline;
+    letter-spacing: 2px;
+    color:aliceblue;
+    padding: 10px;
+    width: auto;
+    background-color: green;
+}
+
+/* q3 end */
+
+/* q4 start */
+
+section h3{
+    list-style:outside;
+}
+
+section header{
+    background-color: green;
+    color: aliceblue;
+    padding: 15px;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+section .example{
+    border: 2px solid black;
+    width: 400px;
+    padding: 20px;
+    margin-left: 400px;
+}
