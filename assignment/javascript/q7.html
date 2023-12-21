@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./anymation.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        .highlight {
+          background-color: red;
+        }
+    
+        .important {
+          font-weight: bold;
+        }
+      </style>
+</head>
+<body>
+    <header>
+        <div class="left_side">
+            <img src="./New folder/img/pngwing.com.png" alt="">
+        </div>
+        <div class="right_side">
+            <h1>javaScript</h1>  
+            <p>Assignment</p>
+        </div>
+    </header>
+    <nav>
+        <div class="left_nav">
+            <ul>
+                <li>Home</li>
+                <li>Style Demo</li>
+                <li>Full Width</li>
+                <li>DropDown</li>
+                <li>A Long Link Text</li>
+            </ul>
+        </div>
+    </nav>
+    <section>
+        <h1>Q7. How can the style/class of an element be changed?  </h1>
+        <div class="ans">
+            <p id="myParagraph" class="highlight">This is an important paragraph.</p>
+
+            <button onclick="changeClass()">Change Class</button>
+        </div>
+        <div class="ans">
+            <p>
+                &lt;script&gt;<br>
+                &nbsp;&nbsp;&nbsp;function changeClass() {<br>
+                &nbsp;&nbsp;&nbsp;var paragraph = document.getElementById("myParagraph");<br>
+                &nbsp;&nbsp;&nbsp;paragraph.classList.toggle("important");<br>
+                &nbsp;&nbsp;&nbsp;}<br>
+                 &lt;/script&gt;
+            </p>
+        </div>
+    </section>
+    <footer>
+        <div class="left">
+            <a href="./q6.HTML">
+                <i class="fa-solid fa-circle-chevron-left" style="color:#f46d57;"></i>
+            </a>
+        </div>
+        <div class="right">
+            <a href="./q8.html">
+                <i class="fa-solid fa-circle-chevron-right" style="color:#f46d57;"></i>
+            </a>
+        </div>
+    </footer>
+    <script>
+        function changeClass() {
+          var paragraph = document.getElementById("myParagraph");
+          paragraph.classList.toggle("important");
+        }
+      </script>
+</body>
+</html>
