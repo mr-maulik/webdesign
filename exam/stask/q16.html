@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Get Function Name Example</title>
+     <style>
+          body {
+               font-family: Arial, sans-serif;
+               text-align: center;
+               margin: 50px;
+          }
+     </style>
+</head>
+
+<body>
+     <!-- Question 16 -->
+
+     <!-- Example Is below -->
+
+     <h2>Get Function Name Example</h2>
+
+     <script>
+          function getFunctionName(func) {
+               // Use the name property to get the function name
+               return func.name || 'Anonymous';
+          }
+
+          // Example usage:
+          function mycreatedfunction() {
+               // Your function logic here
+          }
+
+          // Display the result
+          document.write('<p>Function Name: ' + getFunctionName(mycreatedfunction) + '</p>');
+     </script>
+
+</body>
+
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main{
+            position: relative;
+        }
+
+        .main .one,.two,.three{
+            width: 200px;
+            height: 200px;
+        }
+        .main .one{
+            background-color: blueviolet;
+            z-index: 1;
+            position: absolute;
+        }
+
+        .main .two{
+            background-color: black;
+            z-index: 2;
+            position: absolute;
+            margin-top: 20px;
+            margin-left: 15px;
+            color: wheat;
+        }
+
+        .main .three{
+            background-color:aqua;
+            z-index: 3;
+            position: absolute;
+            margin-top: 40px;
+            margin-left: 40px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Define z-index ? create examples as look like this examples using z-index.</h1>
+
+    <h2>example</h2>
+    <div class="main">
+        <div class="one">1</div>
+        <div class="two">2</div>
+        <div class="three">3</div>
+    </div>
+</body>
+</html>

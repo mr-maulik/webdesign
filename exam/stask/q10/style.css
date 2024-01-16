@@ -1,0 +1,109 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+header {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(to bottom, rgba(0, 128, 0, 0.8), rgba(34, 139, 34, 0.8)); /* Adjust colors and transparency as needed */
+    background-color: #83aa96;
+}
+
+header .logo img {
+    padding: 22px 10px;
+}
+
+header .right-side {
+    display: flex;
+    align-items: center;
+}
+
+header .right-side ul {
+    display: flex;
+    color: #234821;
+    margin-right: 20px;
+    text-align: center;
+}
+
+header .right-side ul li {
+    padding: 0px 30px;
+}
+
+header .right-side ul li a{
+    text-decoration: none;
+}
+
+header .right-side .bar-btn {
+    display: none;
+
+}
+
+.hero {
+    position: relative;
+    height: 500px;
+    background: url('./img/slider1.jpg') center/cover;
+    /* Placeholder image */
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero h1 {
+    margin-bottom: 20px;
+}
+
+.hero p {
+    max-width: 600px;
+    margin-bottom: 20px;
+}
+
+.hero-buttons {
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+}
+
+.hero-buttons button {
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+
+
+@media (max-width: 1000px) {
+    header .right-side ul {
+        display: none;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        width: 100%;
+        top: 80px; /* Adjust as needed */
+        left: 0;
+        background: linear-gradient(to bottom, rgba(0, 128, 0, 0.5), rgba(34, 139, 34, 0.5));
+    }
+
+    header .right-side ul li {
+        padding: 10px 0px;
+    }
+
+    header .right-side .bar-btn {
+        display: block;
+        padding: 15px 20px;
+        font-size: 20px;
+    }
+
+    
+
+}
